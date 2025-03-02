@@ -1,9 +1,9 @@
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/TRIEU/HG/refs/heads/main/HT.lua"))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
 
        local Window = MakeWindow({
          Hub = {
          Title = "HT",
-         Animation = "TEST: HT"
+         Animation = "HT: TEST"
          },
         Key = {
         KeySystem = false,
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/TRIEU/HG/refs/heads/
   })
 
        MinimizeButton({
-       Image = "https://www.mediafire.com/view/sdx2j1lubtdscmc/IMG_20250302_154816.png/file",
+       Image = "http://www.roblox.com/asset/?id=83190276951914",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -30,7 +30,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/TRIEU/HG/refs/heads/
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "script no key"})
+     local Tab1o = MakeTab({Name = "Script Farm"})
      
 ------- BUTTON
     
@@ -45,15 +45,15 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/TRIEU/HG/refs/heads/
 loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
   end
   })
-      AddButton(Tab1o, {
-     Name = "script warure",
+  AddButton(Tab1o, {
+     Name = "Redz Hub",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
   Translator = true; -- true/false
 }
 
-getgenv().Team = "Pirates"
+  getgenv().Team = "Pirates"
 getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
 getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
