@@ -28,8 +28,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        Stroke = false,
        StrokeColor = Color3.fromRGB(255, 0, 0)
       })
-  - -protected by: discord.gg/50ms
--- - -redz hub:https://discord.gg/gCjy3JYE
+      
 ------ Tab
      local Tab1o = MakeTab({Name = "Script no key "})
      
